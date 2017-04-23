@@ -1,0 +1,13 @@
+{
+  "name": "the_hub",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^2.2.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "scripts": {
+    "dev": "next"
+  }
+}
