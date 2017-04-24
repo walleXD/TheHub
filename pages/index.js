@@ -9,9 +9,9 @@ const Index = () => (
     <p>Hurrah!</p>
     <h2>DO this!</h2>
     <style jsx>{`
-      div{
+      div {
       	background-color: #121212;
-      	height: 20
+      	height: 20px
       }
     `}</style>
   </DefaultLayout>

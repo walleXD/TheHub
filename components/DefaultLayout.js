@@ -5,7 +5,7 @@ const Layout = (props) => (
 		{props.children}
 		<style jsx global>{`
 			body{
-				margin: 0; 
+				margin: 0;
 				padding: 0;
 				background: #E1E1E1;
 			}

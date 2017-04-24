@@ -2,16 +2,16 @@ import React from 'react'
 
 const Navbar = () => (
   <header>
-  <div className="header-container">
-    <div className="logo">LOGO</div>
-    <div className="ham"> &#9776; </div>
-    <ul>
-      <a href="#"><li>Publish</li></a>
-      <a href="#"><li>Publish</li></a>
-      <a href="#"><li>Publish</li></a>
-      <a href="#"><li>Publish</li></a>
-    </ul>
-  </div>
+    <div className="header-container">
+      <div className="logo">LOGO</div>
+      <div className="ham"> &#9776; </div>
+      <ul>
+        <a href="#"><li>Publish</li></a>
+        <a href="#"><li>Publish</li></a>
+        <a href="#"><li>Publish</li></a>
+        <a href="#"><li>Publish</li></a>
+      </ul>
+    </div>
     <style jsx>{`
       header {
         background: #771B9A;
@@ -27,7 +27,7 @@ const Navbar = () => (
         height: 100%;
       }
       .header-container div{
-        padding: 0; margin: 0;
+        margin: 0;
         display: inline-block;
         padding: 10px;
       }
@@ -47,7 +47,7 @@ const Navbar = () => (
         position: absolute;
         right: 0; top: 15%;;
         width: 50%;
-        
+
       }
       ul a, ul a:active, ul a:visited{
         color: #000;
